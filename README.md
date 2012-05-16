@@ -1,3 +1,6 @@
+wspurify is a whitespace cleanup utility
+========================================
+
 ```
 $ wspurify
 Usage: wspurify FILE
