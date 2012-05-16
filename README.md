@@ -3,8 +3,9 @@ $ wspurify
 Usage: wspurify FILE
 Remove every whitespace from the end of each line and remove every blank line from the end of the file.
 This utility is only supposed to work on plain text files having Unix newlines; binary files are ignored.
-As you may already suspect you should first download wspurify, then make it executable and finally save it as "wspurify" into a directory that is featured in your $PATH.
 ```
+
+As you may already suspect you should first download wspurify, then make it executable and finally save it as "wspurify" into a directory that is featured in your $PATH.
 
 After that, you are encouraged to cast loose this beast on any directory tree:
 
