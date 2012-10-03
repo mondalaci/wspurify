@@ -4,7 +4,7 @@ if [ $# -ne 1 ]; then
     echo "Usage: `basename $0` FILE"
     echo "Remove every whitespace from the end of each line and remove every blank line from the end of the file."
     echo "This utility is only supposed to work on plain text files having Unix newlines; binary files are ignored."
-    echo "wspurify 0.3 is released under the GPLv3, hosted at http://code.google.com/p/wspurify/"
+    echo "wspurify 0.3 is released under the GPLv3, hosted at https://github.com/mondalaci/wspurify"
     exit 1
 fi
 
