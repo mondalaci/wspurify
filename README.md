@@ -13,13 +13,13 @@ As you may already suspect you should first download wspurify, then make it exec
 After that, you are encouraged to cast loose this beast on any directory tree:
 
 ```bash
-find -type f -exec wspurify {} \;
+find -type f -not -path '*/\.*' -exec wspurify {} \;
 ```
 
 In case you have any non-Unix textfiles you're free to convert them using the well-known fromdos utility:
 
 ```bash
-find -type f -exec fromdos {} \;
+find -type f -not -path '*/\.*' -exec fromdos {} \;
 ```
 
 To measure the efficiency of the purification you may want to sum the size of all the files in a given directory before and after the purification by using this command:
